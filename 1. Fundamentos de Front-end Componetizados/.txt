@@ -1,0 +1,3 @@
+aprendendo o que é component
+aprendendo a criar shadow DOM
+aprendendo a criar uma prop
