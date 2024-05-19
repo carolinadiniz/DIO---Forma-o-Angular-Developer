@@ -1,5 +1,5 @@
 # DIO - Formação o Angular Developer
-Repositório para as aulas da Formação Angular Developer da https://www.dio.me/  
+Repositório para as aulas da Formação Angular Developer da (dio.me)[https://www.dio.me/]
 
 ## O que é este repositório
 Este é um repositório para guardar os aplicativos e anotações criadas nos cursos da Formação Angular Developer.
