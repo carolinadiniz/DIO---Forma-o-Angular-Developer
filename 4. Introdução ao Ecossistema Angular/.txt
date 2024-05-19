@@ -1,0 +1,114 @@
+### O que é angular
+### Pré-requistos Angular
+### AngularJS vs Angular
+### Mortal Kombat capítulo final Angular vs React edition
+### O que são as 4 camadas das Web App (Components, States, Routing, Render)
+
+
+# O que é Angular
+## Uma breve apresentação sobre o que é o angular e suas principais características
+é um framework baseado em javascript
+TypeScript como linguagem principal - deixa os códigos mais previsiveis
+SPAs são o seu foco (SPA - Single Page Application)
+Componentes são a base da arquitetura
+Estrutura organizada e bem definida
+Sistema de Tooling muito rico: CLI, HTTP, Router...
+
+
+# Pré-requistos Angular
+## Foi abordado nesta aula, os conhecimentos básicos nescessários para trabalhar com angular
+Conhecimentos em:
+HTML & CSS
+Node.Js & NPM
+JavaScript & TypeScript
+
+
+# AngularJS vs Angular
+## Nesta aula foi abordada a diferença entre AngularJs e Angular
+ECS6 Foi um dos maiores causadores
+Para se adaptar ao ECS6 foi reescrito todo o código do Angular usando TypeScript.
+
+AngularJS
+2010 foca em JavaScript e tem a ideia de usar o HTML e CSS mais puro
+
+Angular
+2016 foca em TypeScript e foca mais na organização e escalonamento
+
+
+# Angular no Mercado de Frameworks
+## Nesta aula é mostrada a semelhança entre todos os frameworks presentes no mercado, que resolvem o mesmo problema.
+
+
+# Mortal Kombat capítulo final Angular vs React edition
+## Nesta aula é abordada uma comparação entre Angular e react para decidir qual framework utilizar para determinado projeto.
+
+### React 
+framework mais popular
+baixo nível de setup
+se não for bem elaborado no início, será necessário refatorar
+nescessário utilizar muitas bibliotecas externas
+TypeScript é opcional - Porém o mercado pede TypeScript
+muito material feito pela comunidade
+maior facilidade para migrar para mobile
+Powered: By Google
+Definição: Biblioteca
+Templation: HTML + TS
+Binding: Uni-Directional
+DOM: Virtual DOM
+Application logic|state: Flux / Redux ou Contex API
+
+
+### Angular
+tem maior curva de aprendizagem
+maior quantidade de vagas para Angular
+maior nível de setup
+estrutura bem definida
+possui muitas bibliotecas internas e é mantido pelas mesmas equipes
+impõe trabalhar com TypeScript
+muito material feito pela comunidade, porém, menos que React
+mair dificuldade para migração mobile
+Powered: By Facebook
+Definição: Framework
+Templation: JS + JSX
+Binding: 2 Way Binding
+DOM: Regular DOM
+Application logic|state: Service
+
+# Camadas de uma Web App
+
+# 4 Camadas
+## Nesta aula foi ensinado conceitos de camadas de uma Web App
+
+### Componentes
+São blocos de códigos HTML e CSS
+É um elemento visual, customizável e reutilizável
+Exemplo: um card na tela, botão
+
+
+### Gerenciamento de Estado
+Gerencia os valores das propriedades dos Componentes
+Responsável por garantir que as informações dos componentes não estão dessincronizadas e facilitar a comunicação de um componente com outro.
+Exemplo: Atualiza carrinho de comprar ao clicar no botão de comprar um produto.
+Exemplo de ferramentas para gerenciamento de estado:
+Flux, Redux, Context API, Recoil, Storeon, Vuex, NGRX, NGXS
+
+
+### Roteamento
+Informa qual componente deve ser renderizado
+Responsável pela forma de navegar fazendo a troca de URL sem Recarregar a página, mudando somento os componentes que são mostrados.
+Exemplo: meuapp/login   meuapp/home
+Exemplos de bibliotecas:
+History API (Nativo do browser),React-Router, Vue-Router, Angular RoutingModule
+
+
+### Renderização
+Mostra os elementos do componente
+Responsável por decidir a melhor maneira de acessar e entregar para o browser o componente pronto para que ele seja desenhado na janela sem complicações.
+Exitem 3 tipos principais de estratégia de renderização:
+* 100% Server - 
+* Parte server e Parte Client - 
+* 100% Client - Não tem SEO (sistema para ranquear páginas nos sistemas de buscas)
+
+
+# Conhecendo o Angular
+# Explorando a documentação do Angular
