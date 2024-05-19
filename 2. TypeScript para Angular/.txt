@@ -1,0 +1,14 @@
+Aprendendo porque usar typescript
+Aprendendo a diferença do typescript para o javascript em tempo de desenvolvimento
+Aprendendo a instalar typescript localmente
+aprendendo a utilizar o npx para traduzir e compilar o arquivo ts
+Aprendendo a utilizar o arquivo de configuração do typescript (tsconfig) npx tsc --init
+Aprendendo a transcompilar e executar usando "start" : "npx tsc && node build/index.js"
+aprendendo a usar variáveis tipadas em typescript
+aprendendo a usar funções tipadas em typescript
+apremdendo as semelhanças entre type e interfaces em typescript
+aprendendo a usar classes em typescript
+aprendendo a usar generics em typescript
+aprendendo a instalar e usar o ts-node-dev e configurar "start:dev" : "ts-node-dev --respawn --transpile-only src/index.ts"
+aprendendo o que são decorators
+
