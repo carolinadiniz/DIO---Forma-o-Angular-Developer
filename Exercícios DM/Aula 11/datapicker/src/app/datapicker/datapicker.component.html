@@ -1,0 +1,55 @@
+<h1>Datapicker</h1>
+
+<div>
+  <p>Datapicker Simples</p>
+  <mat-form-field>
+    <mat-label>Escolha uma data</mat-label>
+    <input matInput [matDatepicker]="picker1" />
+    <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
+    <mat-datepicker #picker1></mat-datepicker>
+  </mat-form-field>
+</div>
+
+<div>
+  <p>Datapicker simples começando com mês</p>
+  <mat-form-field>
+    <mat-label>Escolha uma data</mat-label>
+    <input matInput [matDatepicker]="picker2" />
+    <mat-datepicker-toggle matSuffix [for]="picker2"></mat-datepicker-toggle>
+    <mat-datepicker #picker2 startView="year"></mat-datepicker>
+  </mat-form-field>
+</div>
+
+<div>
+  <p>Datapicker com um intervalo de datas pré-definido</p>
+  <mat-form-field>
+    <mat-label>Escolha uma data</mat-label>
+    <mat-datepicker-toggle matSuffix [for]="picker3"></mat-datepicker-toggle>
+    <mat-date-range-input [rangePicker]="picker3">
+      <input matStartDate placeholder="Data de início" />
+      <input matEndDate placeholder="Data de fim" />
+    </mat-date-range-input>
+    <mat-date-range-picker #picker3></mat-date-range-picker>
+  </mat-form-field>
+</div>
+
+<h2>Validação de Datas</h2>
+<div>
+  <p>Definir datas mínimas e máximas</p>
+  <mat-form-field>
+    <mat-label>Escolha uma data</mat-label>
+    <input matInput [matDatepicker]="picker4" [min]="minDate" [max]="maxDate"/>
+    <mat-datepicker-toggle matSuffix [for]="picker4"></mat-datepicker-toggle>
+    <mat-datepicker #picker4></mat-datepicker>
+  </mat-form-field>
+</div>
+
+<div>
+  <p>Controle ainda mais refinado usando filtros<br>Impede a seleção de sábado e domingo</p>
+  <mat-form-field>
+    <mat-label>Escolha uma data</mat-label>
+    <input matInput [matDatepickerFilter]="myFilter" [matDatepicker]="picker5">
+    <mat-datepicker-toggle matSuffix [for]="picker5"></mat-datepicker-toggle>
+    <mat-datepicker #picker5></mat-datepicker>
+  </mat-form-field>
+</div>
