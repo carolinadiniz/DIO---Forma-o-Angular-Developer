@@ -1,0 +1,9 @@
+<app-adicionar-tarefa
+  (AdicionarNovaTarefa)="adicionarTarefa($event)"
+></app-adicionar-tarefa>
+
+<ul>
+  <li *ngFor="let tarefa of tarefas">
+    {{ tarefa }}
+  </li>
+</ul>

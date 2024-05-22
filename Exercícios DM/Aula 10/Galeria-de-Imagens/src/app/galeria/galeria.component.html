@@ -1,0 +1,10 @@
+<h3>Contador de clicks</h3>
+<p>{{ totalCliques }} clicks</p>
+<ul>
+  <li *ngFor="let imageSrc of imageSrcList">
+    <app-imagem
+      [imageSrc]="imageSrc"
+      (cliqueNaImage)="cliqueNaImagem()"
+    ></app-imagem>
+  </li>
+</ul>

@@ -1,0 +1,4 @@
+<app-vendas [nomeProduto]="produto.nome"></app-vendas>
+<!--marketing.component.html-->
+<app-vendas (vendasRealizadas)="receberRelatorio($event)"></app-vendas>
+<p>Total de vendas: {{ totalVendas }}</p>

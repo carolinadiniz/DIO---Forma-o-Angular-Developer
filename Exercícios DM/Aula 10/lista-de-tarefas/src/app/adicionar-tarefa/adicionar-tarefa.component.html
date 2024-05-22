@@ -1,0 +1,3 @@
+<input type="text" [(ngModel)]="novaTarefa" placeholder="Digite a tarefa..." (input)="textoAlterado($event)">
+<button (click)="adicionarTarefa()">Adicionar</button>
+<p class="aviso" *ngIf="mostrarAviso">Limite de caracteres excedido! <span>{{caracteresExcedidos}} caracteres</span></p>

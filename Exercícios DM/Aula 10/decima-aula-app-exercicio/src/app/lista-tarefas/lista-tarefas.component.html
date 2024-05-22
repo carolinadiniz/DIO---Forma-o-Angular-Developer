@@ -1,0 +1,5 @@
+<ul>
+  <li *ngFor="let tarefa of tarefas$ | async; let i = index">
+    <app-tarefa [tarefa]="tarefa" (concluidaChange)="marcarConcluida(i)"></app-tarefa>
+  </li>
+</ul>
