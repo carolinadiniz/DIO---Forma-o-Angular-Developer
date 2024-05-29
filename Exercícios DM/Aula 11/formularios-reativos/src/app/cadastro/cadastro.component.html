@@ -1,0 +1,24 @@
+<form [formGroup]="cadastroForm" (ngSubmit)="onSubmit()">
+  <div>
+    <label>Nome:</label>
+    <input type="text" formControlName="nome">
+    <div *ngIf="cadastroForm.get('nome')?.hasError('required')">
+      Nome é obrigatório.
+    </div>
+  </div>
+  <div>
+    <label>email:</label>
+    <input type="email" formControlName="email">
+    <div *ngIf="cadastroForm.get('email')?.hasError('required')">
+      Email é obrigatório.
+    </div>
+  </div>
+  <div>
+    <label>senha:</label>
+    <input type="password" formControlName="senha">
+    <div *ngIf="cadastroForm.get('senha')?.hasError('required')">
+      Senha é obrigatório.
+    </div>
+  </div>
+  <button type="submit" [disabled]="!cadastroForm.valid">Cadastrar</button>
+</form>
